@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <%= require('html-loader!./layout/head.html') %>
+        <title>四则运算出题测试</title>
+    </head>
+    <script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <body>
+        <%= require('html-loader!./layout/header.html') %>
+        <div class="w">
+            <div class="panel">
+                <div class="panel-title">exam setttings</div>
+                <div class="panel-body">
+                    <div class="panel-item">
+                        <input type="text" placeholder="numbers" class="panel-input nums">
+                    </div>
+                    <div class="panel-item">
+                        <input type="text" placeholder="min" class="panel-input min"> ~
+                        <input type="text" placeholder="max" class="panel-input max">
+                    </div>
+                    <div class="panel-item">
+                        <label for="multDiv" class="option">乘除：</label>
+                        <label class="el-switch">
+                            <input type="checkbox" name="switch" hidden id="multDiv">
+                            <span class="el-switch-style"></span>
+                        </label>
+                    </div>
+                    <div class="panel-item">
+                        <label class="option" for="bracket">括号：</label>
+                        <label class="el-switch">
+                            <input type="checkbox" name="switch" hidden id="bracket">
+                            <span class="el-switch-style"></span>
+                        </label>
+                    </div>
+                    <div class="panel-item">
+                        <a class="button button-primary button-pill button-plus start">START EXAM</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-title">Please complete the following test by yourself~</div>
+                <div class="panel-body" id="test">
+                    
+                </div>
+            </div>
+            <div class="modal-wrap">
+                
+            </div>
+        </div>
+        <%= require('html-loader!./layout/footer.html') %>
+    </body>
+</html>

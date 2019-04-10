@@ -1,0 +1,102 @@
+/*
+ * @Author: Yzed 
+ * @Date: 2019-04-08 19:32:17 
+ * @Last Modified by: Yzed
+ * @Last Modified time: 2019-04-09 18:07:53
+ */
+
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 12px/1.5 tahoma,arial,Microsoft YaHei, sans_serif;
+    font: 1.2rem/1.5 tahoma,arial,Microsoft YaHei, sans_serif;
+}
+li{
+    list-style-type: none;
+}
+img{
+    display: block;
+    border: none;
+}
+label{
+    cursor: pointer;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+a{
+   text-decoration: none;
+}
+
+/* 定宽布局 */
+.w{
+    width: 108rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+/* panel */
+.panel{
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    box-shadow: .4rem .4rem 1rem rgba(0, 0, 0, .3)
+}
+.panel .panel-title{
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+}
+.panel .panel-body{
+    padding: 1rem;
+    overflow: hidden;
+}
+.panel .panel-item{
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* 全局通用样式 */
+ 
+ /* 隐藏类 */
+ 
+ .hide{
+    display: none;
+}
+
+
+/* 超链样式 */
+
+.link{
+   color: #999;
+   cursor: pointer;
+   text-decoration: none;
+}
+.link:hover{
+   color: #e80012;
+}
+.link-text{
+   color: #999;
+   text-decoration: none;
+}
+/* 错误信息 */
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    color: #f60;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #eee;
+}
+/* <a class="button button-primary button-pill button-small">Go</a> **/

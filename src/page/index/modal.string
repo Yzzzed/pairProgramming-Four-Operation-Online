@@ -1,0 +1,9 @@
+<div class="modal">
+    <div class="modal-container">
+        <div class="modal-item">There are <span class="total">{{nums}}</span> question(s).</div>    
+        <div class="modal-item">You have done <span class="right">{{right}}</span> question(s).</div>
+        <div class="modal-item">
+            <a class="button button-primary button-pill button-small exit">EXIT</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+{{#list}}
+<div class="panel-test-item">
+    <div class="panel-formula">{{formula}}</div>
+    <div class="panel-equal">=</div>
+    <input type="text" class="panel-input result" placeholder="result">
+</div>
+{{/list}}
+{{^list}}
+<p class="err-tip">something wrong~</p>
+{{/list}}
+<div class="panel-footer">
+    <a class="button button-primary button-pill button-plus submit">SUBMIT</a>
+</div>

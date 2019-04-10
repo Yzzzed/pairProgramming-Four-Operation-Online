@@ -1,0 +1,23 @@
+/*
+ * @Author: Yzed 
+ * @Date: 2019-04-08 20:30:11 
+ * @Last Modified by: Yzed
+ * @Last Modified time: 2019-04-09 18:51:58
+ */
+
+.header{
+    height: 6rem;
+    background: #229ffd;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 .5rem 1rem .4rem rgba(0, 0, 0, .3);
+}
+.logo{
+    display: inline-block;
+    margin-left: 10rem;
+    width: 20rem;
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 3.6rem;
+    color: #fff;
+    font-weight: bold;
+}
