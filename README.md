@@ -1,6 +1,6 @@
 ## 项目初始化步骤
 
-1.安装nodejs(此项目v10.15.3)
+1.安装nodejs(此项目版本为v10.15.3)
    * 下载地址: https://nodejs.org/download/release/v10.15.3/node-v10.15.3-x64.msi
 
 2.全局安装webpack v4.29、webpack-cli、webpack-dev-server
