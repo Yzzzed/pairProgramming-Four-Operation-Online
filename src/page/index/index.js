@@ -2,7 +2,7 @@
  * @Author: Yzed 
  * @Date: 2019-04-08 19:31:29 
  * @Last Modified by: Yzed
- * @Last Modified time: 2019-04-10 21:20:54
+ * @Last Modified time: 2019-04-11 10:13:18
  */
 
 import './index.css'
@@ -26,6 +26,11 @@ const page = {
     
         $(document).on('click','.start',function(){
             _this.loadTest()
+            if($.trim($('#test').html())){
+                $(this).attr('disabled', true)
+            }else{
+                $(this).removeAttr('disabled')
+            }
         })
 
         $(document).on('click','.submit',function(){

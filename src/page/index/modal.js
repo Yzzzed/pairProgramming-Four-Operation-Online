@@ -2,7 +2,7 @@
  * @Author: Yzed 
  * @Date: 2019-04-10 20:05:16 
  * @Last Modified by: Yzed
- * @Last Modified time: 2019-04-10 20:46:39
+ * @Last Modified time: 2019-04-11 09:47:26
  */
 
 import _mm from '../../util/mm'
@@ -27,6 +27,7 @@ const modal = {
         const _this = this
         $(document).on('click','.exit',function(){
             _this.hide()
+            $('.start').removeAttr('disabled')
         })
     },
     loadModal: function(){
